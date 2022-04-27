@@ -1,0 +1,18 @@
+Installing jest:
+1) install locally with yarn add --dev jest (or npm)
+- note worthy use --dev in everything that you will not ship to production
+- since jest isn't a prod package it's better leave as dev dependency
+
+2) install globally with yarn add global jest
+2.1) run with jest -> options
+2.2) jest -> run all the tests
+2.3) jest <file> runs 1 file
+2.4) jest <file> --notify --config=<jsonfile>
+2.5) jest --init -> create a config file
+
+
+- note, all this jest commands can be done with yarn test (if you have a test in your package.json)
+- ex yarn test file -> jest file
+
+Also this project already have babel installed but it's worth noting that you need to install
+Babel to use ES6 syntax. Also you could use TS-Jest to run with typescript
